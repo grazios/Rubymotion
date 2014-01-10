@@ -56,11 +56,4 @@ class UITabScrollView < UIView
     button.frame = [[button_width * i,0],[button_width,self.tab_view.frame.size.height]]
     return button
   end
-
-  def changeScroll(button)
-    puts button
-    alert = UIAlertView.alloc.init
-    alert.message = button.i
-    
-  end
 end
